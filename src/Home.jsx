@@ -1,5 +1,5 @@
-import Card from "./components/Card"
-import Navbar from "./components/Navbar"
+import Card from "./componentss/Card"
+import Navbar from "./componentss/Navbar"
 
 function Home(){
     return(
