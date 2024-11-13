@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom"
+
 function Card(){
     return(
         <>
+        <Link to="/single">
         <div class="flex px-3 py-3">
     <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"/>
@@ -18,6 +21,7 @@ function Card(){
         </div>
     </div>
 </div>
+        </Link>
         </>
     )
 }
