@@ -1,5 +1,7 @@
 import Card from "./componentss/Card"
+import Footer from "./componentss/Footer"
 import Navbar from "./componentss/Navbar"
+
 
 function Home(){
     return(
@@ -11,6 +13,7 @@ function Home(){
         <Card />
         <Card />
         </div>
+        <Footer />
         
         </>
     )
